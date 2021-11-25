@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+
+{% block body %}
+<br>
+<div class="jumbotron text-center">
+<h3>Flask Giriş Bloğuna Hoşgeldiniz...</h3>
+<p>Bu blogda istediğiniz şeyleri paylaşabilirsinizzzz hahahahaha</p>
+<br>
+</div>
+
+
+<ul>
+    {% for article in articles %}
+    <li> Title : {{article.Title}}, Content : {{article.Content}} , Author : {{article.Author}}</li>
+    {% endfor %}
+</ul>
+
+
+
+{% endblock %}
