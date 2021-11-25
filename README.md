@@ -1,2 +1,1 @@
-# blogflask
-# blogflask
+Learning project with flask
